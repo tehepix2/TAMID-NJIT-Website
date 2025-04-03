@@ -46,14 +46,14 @@ nav {
 }
 
 .nav-links li {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     cursor: pointer;
 }
 
 .join-button {
-    background-color: #111827;
-    color: white;
+    background-color: #5175c2;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 9999px;
     padding: 0.5rem 1.5rem;
