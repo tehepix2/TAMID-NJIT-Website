@@ -145,27 +145,6 @@ footer h4 {
     margin-bottom: 1rem;
 }
 
-.email-signup {
-    display: flex;
-}
-
-.email-signup input {
-    padding: 0.5rem 1rem;
-    width: 320px;
-    border: none;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-
-.email-signup button {
-    background-color: #2563EB;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-
 .nav-button { background-color: #1c87c9; 
     border: none; 
     color: white; 
