@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     color: black;
     font-family: 'Open Sans', sans-serif;
     background-color: white;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .nav-container {
