@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     
 }
 
 body {
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: white;
     line-height: 1.6;
 }
@@ -67,18 +68,22 @@ a {
     color: white;
     padding: 8px 24px;
     border-radius: 9999px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     display: inline-block;
     border: none;
     cursor: pointer;
     text-align: center;
+    margin: 4px 2px; 
 }
+
 .nav-link {
     color: #111827;
     font-size: 16px;
     font-weight: 400;
 }
+
+
 a:hover {
     background-color: #7A7A7A;
     

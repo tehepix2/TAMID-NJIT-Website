@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAMID Group</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="whatistamid.css">
     <link rel="stylesheet" href="navbar.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -97,28 +97,15 @@
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="footer-columns">
-                <div class="footer-about">
-                    <h4>TAMID Group</h4>
-                    <p>Bridging the gap between business and technology.</p>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <div class="email-signup">
-                        <input type="email" placeholder="Enter your email">
-                        <button>Subscribe</button>
-                    </div>
-                </div>
-                <div class="footer-social">
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <!-- Social media icons can be added here -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
 </body>
 </html>
+<div id="footerplaceholder">
+
+</div>
+
+<script>
+$(function(){
+$("#footerplaceholder").load("footer.html");
+});
+</script>

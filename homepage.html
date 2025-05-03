@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAMID Beta at New Jersey Institute of Technology</title>
-    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
@@ -58,24 +57,14 @@
         </section>
     </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="club-info">
-                <h4>Club Tamid</h4>
-                <p>Empowering future business leaders through hands-on experience and professional development.</p>
-            </div>
-            <div class="contact-info">
-                <h4>Contact Us</h4>
-                <p>Email: info@clubtamid.com</p>
-            </div>
-            <div class="newsletter">
-                <h4>Stay Updated</h4>
-                <div class="email-signup">
-                    <input type="email" placeholder="Enter your email">
-                    <button>→</button>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+    
+    </body>
+    </html> <div id="footerplaceholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#footerplaceholder").load("footer.html");
+    });
+</script>
