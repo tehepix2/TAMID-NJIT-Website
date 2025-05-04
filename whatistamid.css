@@ -75,7 +75,7 @@ header.container {
 
 /* Education Section */
 .education {
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 .education-content {
@@ -86,6 +86,7 @@ header.container {
 
 .education-text {
     flex: 1;
+    line-height: 2;
 }
 
 .education-image {
