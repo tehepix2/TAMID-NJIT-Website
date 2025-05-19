@@ -71,6 +71,8 @@ header.container {
 .hero p {
     max-width: 800px;
     margin: 0 auto;
+    font-size: 1.125rem;
+    color: #374151;
 }
 
 /* Education Section */
@@ -80,21 +82,34 @@ header.container {
 
 .education-content {
     display: flex;
-    align-items: center;
-    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .education-text {
     flex: 1;
-    line-height: 2;
+    width: 50%;
+    min-width: 300px;
+    line-height: 1.8;
 }
 
 .education-image {
     flex: 1;
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
 }
 
 .education-image img {
     width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 16px;
     box-shadow: 0 20px 25px rgba(0,0,0,0.1);
 }
@@ -156,6 +171,11 @@ header.container {
     margin-top: 1rem;
 }
 
+.apply-button:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
 /* Footer */
 footer {
     background: #111827;
@@ -193,4 +213,25 @@ footer {
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 0 8px 8px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .education-content,
+    .project {
+        flex-direction: column;
+    }
+
+    .education-text,
+    .education-image,
+    .project-text,
+    .project-image {
+        width: 100%;
+    }
+
+    .education-image img,
+    .project-image img {
+        width: 100%;
+        height: auto;
+    }
 }
