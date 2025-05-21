@@ -29,6 +29,7 @@ header.container {
 .about-section {
     background-color: #F9FAFB;
     text-align: center;
+    line-height: 2;
     padding: 5rem 0;
 }
 
@@ -67,10 +68,11 @@ header.container {
     width: 360px;
     height: 360px;
     object-fit: cover;
+    border-radius: 40px;
 }
 
 .member-details {
-    text-align: left;
+    text-align: center;
 }
 
 .member-details h3 {

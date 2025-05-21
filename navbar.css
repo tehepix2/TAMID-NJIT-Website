@@ -65,7 +65,7 @@ a {
 
 .nav-join-button {
     background-color: #42B5E8;
-    color: white;
+    color:white;
     padding: 8px 24px;
     border-radius: 9999px;
     font-size: 20px;
@@ -84,7 +84,4 @@ a {
 }
 
 
-a:hover {
-    background-color: #999797;
-    
-}
+
